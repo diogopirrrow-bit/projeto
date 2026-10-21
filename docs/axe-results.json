@@ -1,0 +1,260 @@
+[
+  {
+    "version": "4.14.0",
+    "passes": 23,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 8,
+        "targets": [
+          [
+            ".hero-index"
+          ],
+          [
+            ".hero-image-caption"
+          ],
+          [
+            ".image-tag"
+          ],
+          [
+            "a[href=\"#produto/atlantic-midlength\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/ocean-fullsuit\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href=\"#produto/everyday-wave-tee\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/sunset-twin\"] > .card-art > .card-tag"
+          ],
+          [
+            ".rental-stamp"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 390,
+    "route": "inicio"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 26,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 4,
+        "targets": [
+          [
+            "a[href=\"#produto/atlantic-midlength\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/ocean-fullsuit\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href=\"#produto/everyday-wave-tee\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/sunset-twin\"] > .card-art > .card-tag"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 390,
+    "route": "loja"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 24,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 2,
+        "targets": [
+          [
+            "a[href$=\"#produto/ocean-fullsuit\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href=\"#produto/everyday-wave-tee\"] > .card-art > .card-tag"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 390,
+    "route": "produto/atlantic-midlength"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 24,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 3,
+        "targets": [
+          [
+            ".rental-visual-tag"
+          ],
+          [
+            "#rental-label"
+          ],
+          [
+            ".rental-visual-label > span"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 390,
+    "route": "alugueres"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 21,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 1,
+        "targets": [
+          [
+            ".image-tag"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 390,
+    "route": "ponto"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 23,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 7,
+        "targets": [
+          [
+            ".hero-index"
+          ],
+          [
+            ".hero-image-caption"
+          ],
+          [
+            ".image-tag"
+          ],
+          [
+            "a[href=\"#produto/atlantic-midlength\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/ocean-fullsuit\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href=\"#produto/everyday-wave-tee\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/sunset-twin\"] > .card-art > .card-tag"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 1440,
+    "route": "inicio"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 26,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 4,
+        "targets": [
+          [
+            "a[href=\"#produto/atlantic-midlength\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/ocean-fullsuit\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href=\"#produto/everyday-wave-tee\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/sunset-twin\"] > .card-art > .card-tag"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 1440,
+    "route": "loja"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 24,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 3,
+        "targets": [
+          [
+            "a[href$=\"#produto/ocean-fullsuit\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href=\"#produto/everyday-wave-tee\"] > .card-art > .card-tag"
+          ],
+          [
+            "a[href$=\"#produto/sunset-twin\"] > .card-art > .card-tag"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 1440,
+    "route": "produto/atlantic-midlength"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 24,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 3,
+        "targets": [
+          [
+            ".rental-visual-tag"
+          ],
+          [
+            "#rental-label"
+          ],
+          [
+            ".rental-visual-label > span"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 1440,
+    "route": "alugueres"
+  },
+  {
+    "version": "4.14.0",
+    "passes": 21,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 1,
+        "targets": [
+          [
+            ".image-tag"
+          ]
+        ]
+      }
+    ],
+    "violations": [],
+    "width": 1440,
+    "route": "ponto"
+  }
+]
