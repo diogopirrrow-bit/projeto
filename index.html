@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#202822" />
+    <meta
+      name="description"
+      content="Uma visão para a Surf Point. Protótipo local de loja e alugueres, inspirado na cultura de surf da Ericeira."
+    />
+    <title>Surf Point — O ponto de partida é o mar.</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+    <div class="demo-bar">
+      <span class="status-dot"></span> Protótipo de apresentação
+      <span class="demo-detail">· Produtos, imagens e preços ilustrativos</span
+      ><span class="demo-short">· Sem compras reais</span>
+    </div>
+    <header class="site-header">
+      <a class="wordmark" href="#inicio"
+        ><span>SURF</span
+        ><svg viewBox="0 0 60 60" aria-hidden="true">
+          <circle cx="30" cy="30" r="22" />
+          <circle cx="30" cy="30" r="15" />
+          <path d="M30 1v18m0 22v18M1 30h18m22 0h18M25 25h10v10H25z" />
+          <circle class="target-dot" cx="30" cy="30" r="2" /></svg
+        ><span>POINT</span><span class="sr-only">— início</span></a
+      >
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#loja" data-nav="loja">Loja</a
+        ><a href="#alugueres" data-nav="alugueres">Alugueres</a
+        ><a href="#ponto" data-nav="ponto">O nosso ponto</a>
+      </nav>
+      <div class="header-actions">
+        <span class="location-label"
+          >ERICEIRA, PT <span class="small-cross">+</span></span
+        ><button
+          class="icon-button"
+          data-action="search"
+          aria-label="Pesquisar produtos"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6.5" />
+            <path d="m16 16 5 5" />
+          </svg></button
+        ><button
+          class="bag-button"
+          data-action="cart"
+          aria-label="Abrir seleção, 0 artigos"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 8h14l1 13H4L5 8zM8 8V6a4 4 0 0 1 8 0v2" /></svg
+          ><span class="cart-count">0</span></button
+        ><button
+          class="icon-button menu-button"
+          data-action="menu"
+          aria-label="Abrir menu"
+          aria-haspopup="dialog"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 7h18M3 16h18" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main id="conteudo" tabindex="-1"></main>
+    <footer class="site-footer">
+      <div class="footer-top">
+        <a class="footer-brand" href="#inicio"
+          >SURF POINT<span>O ponto de partida é o mar.</span></a
+        >
+        <div>
+          <p class="eyebrow">EXPLORAR</p>
+          <a href="#loja">Loja</a><a href="#alugueres">Alugueres</a
+          ><a href="#ponto">O nosso ponto</a>
+        </div>
+        <div>
+          <p class="eyebrow">FEITO PARA APRESENTAR</p>
+          <p>
+            Uma visão digital para a Surf Point.<br />Sem encomendas nem
+            reservas reais.
+          </p>
+          <button class="text-button" data-action="about">
+            Sobre esta demonstração
+            <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19 19 5M5 5h14v14" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>ERICEIRA · PORTUGAL</span
+        ><span>PROPOSTA VISUAL INDEPENDENTE · 2026</span
+        ><a
+          href="https://www.instagram.com/surfpointstore_/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >@surfpointstore_
+          <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 19 19 5M5 5h14v14" /></svg
+        ></a>
+      </div>
+    </footer>
+    <dialog id="overlay" aria-labelledby="dialog-title">
+      <div id="dialog-content"></div>
+    </dialog>
+    <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+    <noscript
+      ><p class="noscript">
+        Ativa o JavaScript para explorar os quatro percursos locais deste
+        protótipo.
+      </p></noscript
+    >
+  </body>
+</html>
